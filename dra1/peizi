@@ -1,0 +1,5 @@
+安装google输入法:sudo apt install fcitx-googlepinyin
+启动：fcitx &
+打开“设置”--》“键盘”--》“移除”原有的输入法。
+如果下拉菜单中未显示“移除”,输入：sudo ibus-daemon -x命令停止ibus守护进程
+
